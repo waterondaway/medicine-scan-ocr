@@ -41,8 +41,8 @@ def make_medicine_label(fonts, filename):
             draw.text((420, 140), f"วันหมดอายุ {row['exp_date']}", fill="black", font=font) # EXP Date
             draw.text((0, 180), f"-"*300, fill="black", font=font) # Line
             draw.text((30, 220), f"{(row['drug_name']).upper()}", fill="black", font=font) # Drug Name
-            draw.text((250, 220), f"{row['dosage']}", fill="black", font=font) # Dosage
-            draw.text((400, 220), f"{row['form'].upper()}", fill="black", font=font) # Form
+            draw.text((280, 220), f"{row['dosage']}", fill="black", font=font) # Dosage
+            draw.text((420, 220), f"{row['form'].upper()}", fill="black", font=font) # Form
             draw.text((30, 270), f"{row['usage_instructions']}", fill="black", font=font) # Usage Instructions
             draw.text((30, 320), f"{row['indications']}", fill="black", font=font) # Indications
             draw.text((30, 370), f"{row['warnings']}", fill="black", font=font) #  Warnings
