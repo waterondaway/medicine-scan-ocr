@@ -47,8 +47,9 @@ def make_medicine_label(fonts, filename):
             draw.text((30, 320), f"{row['indications']}", fill="black", font=font) # Indications
             draw.text((30, 370), f"{row['warnings']}", fill="black", font=font) #  Warnings
             save_image(img, filename + "_" + str(count))
-            count = count + 1
             print(f"Finish save to assets/output/{filename + "_" + str(count)}")
+            count = count + 1
+            
 
 for font_file in os.listdir(font_directory):
     if font_file.endswith(".ttf"):
