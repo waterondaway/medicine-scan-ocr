@@ -228,7 +228,8 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/osx,java,macos,linux,windows,intellij
 
 # Folder
-/assets/output/
-/assets/fonts/
+assets/output/
+assets/fonts/
 assets/report/~$WEEK01.docx
 assets/report/~$thesis.docx
+api/keys/subtle-bus-443807-m7-63c3367e6ece.json
