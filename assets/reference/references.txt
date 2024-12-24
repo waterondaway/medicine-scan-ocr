@@ -2,3 +2,9 @@
 [1] https://www.nso.go.th/nsoweb/storage/survey_detail/2024/20241003145311_94190.pdf // ข้อมูลอัตราผู้สูงอายุในประเทศไทย
 [2] https://www.ram-hosp.co.th/news_detail/2268 // ข้อมูลอัตราผู้มีปัญหาด้านสายตาในกลุ่มผู้สูงอายุ
 [3] https://he02.tci-thaijo.org/index.php/MKHJ/article/download/233973/160857/ // ข้อมูลอัตราการให้ความร่วมมือการรับประทานยา
+
+# Evaluation Performance of OCR model
+https://ar5iv.org/html/2305.07895
+https://inria.hal.science/hal-01981731/file/Paper-Devashish.pdf
+
+https://arxiv.org/pdf/2410.07400
