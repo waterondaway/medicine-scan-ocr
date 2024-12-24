@@ -26,6 +26,20 @@ def save_image(img, filename):
     save_path = os.path.join(output_directory, f"{filename}.png")
     img.save(save_path)
 
+def save_label_text(row, filename):
+    label_save_path = os.path.join(output_directory, f"{filename}.txt")
+    with open(label_save_path, mode="w", encoding="utf-8") as file:
+        file.write(f"ชื่อ {row['patient_name']}\n")
+        file.write(f"บัตรประจำตัว {row['patient_id']}\n")
+        file.write(f"วันเกิด {row['patient_birthdate']}\n")
+        file.write(f"{row['drug_reg_no']}\n")
+        file.write(f"วันผลิต {row['mfg_date']}\n")
+        file.write(f"วันหมดอายุ {row['exp_date']}\n")
+        file.write(f"{(row['drug_name']).upper()} {row['dosage']} {row['form'].upper()}\n")
+        file.write(f"{row['usage_instructions']}\n")
+        file.write(f"{row['indications']}\n")
+        file.write(f"{row['warnings']}\n")
+
 def make_medicine_label(fonts, filename):
     count = 0
     with open(file_path, mode="r", encoding="utf-8-sig") as file:
@@ -46,8 +60,10 @@ def make_medicine_label(fonts, filename):
             draw.text((30, 270), f"{row['usage_instructions']}", fill="black", font=font) # Usage Instructions
             draw.text((30, 320), f"{row['indications']}", fill="black", font=font) # Indications
             draw.text((30, 370), f"{row['warnings']}", fill="black", font=font) #  Warnings
+            
             save_image(img, filename + "_" + str(count))
             print(f"Finish save to assets/output/{filename + "_" + str(count)}")
+            save_label_text(row, filename + "_" + str(count))
             count = count + 1
             
 
