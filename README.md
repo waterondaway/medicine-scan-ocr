@@ -1,7 +1,7 @@
-# Drug Label Recognition System (Final Year Project)
+# OCR Performance Evaluation System (Final Year Project)
 
 ## Overview
-This repository contains the final year project for my Bachelor's degree at [University Name]. The project focuses on developing a system for recognizing and managing drug labels using Optical Character Recognition (OCR) and Large Language Models (LLM). The project includes both an application and a web-based management system to facilitate drug label recognition, data processing, and management.
+This repository contains the final year project for my Bachelor's degree at Kasetsart University. The project focuses on developing a system for evaluating the performance of Optical Character Recognition (OCR) models in extracting text from drug labels. The system includes a benchmarking framework, dataset generation, and performance metrics to assess OCR model accuracy and efficiency.
 
 ### Key Features
 - **OCR-based Drug Label Recognition**: Uses Optical Character Recognition (OCR) techniques to extract text from drug labels.
@@ -9,15 +9,13 @@ This repository contains the final year project for my Bachelor's degree at [Uni
 - **Application Development**: A mobile or desktop application (depending on implementation) for real-time drug label recognition using OCR technology.
 - **Large Language Model (LLM) Integration**: Enhances data processing and interpretation through the integration of a Large Language Model, offering better context understanding for label information.
 
-## Project Structure
-The project is divided into several parts:
-1. **Dataset**: A collection of synthetic and real drug label images used for training the OCR model.
-2. **OCR Module**: The core module that extracts text from drug label images using machine learning algorithms.
-3. **Web System**: A web interface to manage datasets, process images, and store results.
-4. **LLM Integration**: Using a large language model to assist in understanding the context of the drug label data.
+- **OCR Model Evaluation**: Compares the performance of various OCR models on drug label datasets.
+- **Benchmarking Framework**: Provides a structured approach to evaluate OCR models using key metrics like accuracy, precision, recall, and speed.
+- **Synthetic and Real Datasets**: Utilizes a combination of real-world and synthetically generated drug label images for testing and evaluation.
+- **Performance Reports**: Generates detailed reports to identify the strengths and weaknesses of each model.
 
 ## Setup Instructions
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/waterondaway/medicine-scan.git
+   git clone https://github.com/waterondaway/medicine-scan-ocr.git
