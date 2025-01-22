@@ -1,4 +1,4 @@
-# OCR Performance Evaluation System (Final Year Project)
+# OCR Performance Evaluation System (Under Development for Final Year Project)
 
 ## Overview
 This repository contains the final year project for my Bachelor's degree at Kasetsart University. The project focuses on developing a system for evaluating the performance of Optical Character Recognition (OCR) models in extracting text from drug labels. The system includes a benchmarking framework, dataset generation, and performance metrics to assess OCR model accuracy and efficiency.
