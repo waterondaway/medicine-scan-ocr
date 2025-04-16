@@ -35,7 +35,38 @@ drugs = [
     {"name": "Amlodipine", "dosage": "5mg", "form": "tablet", "reg_no": "REG027"},
     {"name": "Prednisone", "dosage": "10mg", "form": "tablet", "reg_no": "REG028"},
     {"name": "Hydrochlorothiazide", "dosage": "25mg", "form": "tablet", "reg_no": "REG029"},
-    {"name": "Benzonatate", "dosage": "100mg", "form": "capsule", "reg_no": "REG030"}
+    {"name": "Benzonatate", "dosage": "100mg", "form": "capsule", "reg_no": "REG030"},
+    {"name": "อะม็อกซีซิลลิน", "dosage": "500mg", "form": "แคปซูล", "reg_no": "REG031"},
+    {"name": "เซฟาเลกซิน", "dosage": "250mg", "form": "แคปซูล", "reg_no": "REG032"},
+    {"name": "แอสไพริน", "dosage": "81mg", "form": "เม็ด", "reg_no": "REG033"},
+    {"name": "ซิโปรฟลอกซาซิน", "dosage": "250mg", "form": "เม็ด", "reg_no": "REG034"},
+    {"name": "ไอบูโพรเฟน", "dosage": "200mg", "form": "เม็ด", "reg_no": "REG035"},
+    {"name": "เมโทโพรลอล", "dosage": "50mg", "form": "เม็ด", "reg_no": "REG036"},
+    {"name": "ไฮโดรคลอโรไทอาไซด์", "dosage": "12.5mg", "form": "เม็ด", "reg_no": "REG037"},
+    {"name": "เฟกโซเฟนาดีน", "dosage": "120mg", "form": "เม็ด", "reg_no": "REG038"},
+    {"name": "อลปราโซแลม", "dosage": "0.5mg", "form": "เม็ด", "reg_no": "REG039"},
+    {"name": "โรซูวาสแตติน", "dosage": "10mg", "form": "เม็ด", "reg_no": "REG040"},
+    {"name": "อ็อกซิโคโดน", "dosage": "10mg", "form": "แคปซูล", "reg_no": "REG041"},
+    {"name": "มอร์ฟีน", "dosage": "30mg", "form": "แคปซูล", "reg_no": "REG042"},
+    {"name": "ยาบูพรีนอร์ฟีน", "dosage": "2mg", "form": "เม็ดอมใต้ลิ้น", "reg_no": "REG043"},
+    {"name": "มอนเทลูคาสต์", "dosage": "10mg", "form": "เม็ด", "reg_no": "REG044"},
+    {"name": "ซาลบูตามอล", "dosage": "100mcg", "form": "สเปรย์พ่น", "reg_no": "REG045"},
+    {"name": "อีริโทรมัยซิน", "dosage": "500mg", "form": "เม็ด", "reg_no": "REG051"},
+    {"name": "ยาไฮดรอกไซซีน", "dosage": "25mg", "form": "เม็ด", "reg_no": "REG052"},
+    {"name": "แอมลิทริปไทลีน", "dosage": "10mg", "form": "เม็ด", "reg_no": "REG053"},
+    {"name": "เซอร์ทราลีน", "dosage": "50mg", "form": "เม็ด", "reg_no": "REG054"},
+    {"name": "ฟลูออกซิทีน", "dosage": "20mg", "form": "แคปซูล", "reg_no": "REG055"},
+    {"name": "เวนลาฟาซีน", "dosage": "75mg", "form": "แคปซูล", "reg_no": "REG056"},
+    {"name": "ยาเมติโปรโลล", "dosage": "50mg", "form": "เม็ด", "reg_no": "REG057"},
+    {"name": "ยาสไปโรโนแลคโตน", "dosage": "25mg", "form": "เม็ด", "reg_no": "REG058"},
+    {"name": "โปรพาโนลอล", "dosage": "40mg", "form": "เม็ด", "reg_no": "REG059"},
+    {"name": "ไฮดราลาซีน", "dosage": "25mg", "form": "เม็ด", "reg_no": "REG061"},
+    {"name": "โอมิพรามีน", "dosage": "25mg", "form": "เม็ด", "reg_no": "REG063"},
+    {"name": "อัลฟูโซซิน", "dosage": "10mg", "form": "เม็ด", "reg_no": "REG064"},
+    {"name": "คาร์บามาซีพีน", "dosage": "200mg", "form": "เม็ด", "reg_no": "REG066"},
+    {"name": "ไดอะซีแพม", "dosage": "5mg", "form": "เม็ด", "reg_no": "REG067"},
+    {"name": "เทมาซีพัม", "dosage": "10mg", "form": "เม็ด", "reg_no": "REG068"},
+    {"name": "เอ็นเอซิทิลซิสเตอีน", "dosage": "600mg", "form": "เม็ดฟู่", "reg_no": "REG070"}
 ]
 
 warnings = [
@@ -67,7 +98,46 @@ warnings = [
     "หากยาไม่ได้ผลภายใน 3 วัน ควรปรึกษาแพทย์",
     "หลีกเลี่ยงการใช้ร่วมกับยาตัวอื่นๆ",
     "ควรใช้ยาในปริมาณที่ถูกต้อง",
-    "หากมีอาการมึนงง ควรหยุดยาและปรึกษาแพทย์"
+    "หากมีอาการมึนงง ควรหยุดยาและปรึกษาแพทย์",
+        "ห้ามใช้ร่วมกับยาแก้ปวดบางชนิด",
+    "ควรใช้ด้วยความระมัดระวังในผู้ป่วยโรคไต",
+    "หลีกเลี่ยงการขับขี่ยานพาหนะหลังรับประทานยา",
+    "อาจทำให้ความดันโลหิตต่ำ",
+    "ห้ามใช้ในผู้ที่มีภาวะเลือดออกผิดปกติ",
+    "ห้ามใช้ร่วมกับยาต้านการแข็งตัวของเลือด",
+    "ห้ามใช้ในผู้ที่เป็นโรคเบาหวานโดยไม่ปรึกษาแพทย์",
+    "หากมีอาการคลื่นไส้รุนแรง ควรหยุดยา",
+    "ไม่ควรใช้ร่วมกับอาหารที่มีไขมันสูง",
+    "หากมีอาการใจสั่น ควรหยุดยาและพบแพทย์",
+    "ควรหลีกเลี่ยงการออกแดดเป็นเวลานาน",
+    "ห้ามใช้ในผู้ที่มีอาการแพ้ยาแอสไพริน",
+    "ควรดื่มน้ำมากๆ ขณะรับประทานยา",
+    "ห้ามใช้ในผู้ที่มีปัญหาเกี่ยวกับตับและไต",
+    "อาจทำให้เกิดภาวะน้ำตาลในเลือดต่ำ",
+    "หากมีอาการปวดศีรษะรุนแรง ควรหยุดยา",
+    "ห้ามบดหรือเคี้ยวยาเม็ด",
+    "ห้ามฉีดยาด้วยตนเองโดยไม่ได้รับคำแนะนำ",
+    "ควรใช้ภายใต้การดูแลของบุคลากรทางการแพทย์",
+    "ห้ามใช้ในผู้ที่มีภาวะไทรอยด์เป็นพิษ",
+    "อาจทำให้เกิดภาวะซึมเศร้าในบางราย",
+    "ห้ามใช้ร่วมกับยาที่มีฤทธิ์กดระบบประสาท",
+    "ควรเก็บยาในที่แห้งและพ้นจากแสงแดด",
+    "หากมีอาการบวมที่ใบหน้าหรือริมฝีปาก ควรหยุดยา",
+    "ห้ามใช้ในผู้ที่เป็นโรคหืดรุนแรง",
+    "อาจทำให้เกิดอาการท้องอืดหรือแน่นท้อง",
+    "ไม่ควรใช้ในระยะยาวโดยไม่ได้รับคำแนะนำ",
+    "อาจทำให้เกิดความผิดปกติของระบบทางเดินอาหาร",
+    "หากลืมรับประทานยา ไม่ควรเพิ่มขนาดยาในมื้อต่อไป",
+    "ห้ามใช้ร่วมกับผลิตภัณฑ์ที่มีคาเฟอีนสูง",
+    "ควรปรึกษาแพทย์ก่อนหยุดใช้ยา",
+    "ห้ามใช้ในผู้ที่มีประวัติเป็นโรคชัก",
+    "อาจทำให้เกิดความผิดปกติของหัวใจในบางราย",
+    "ห้ามใช้ในผู้ที่มีปัญหาการแข็งตัวของเลือด",
+    "หากใช้ยาแล้วมีอาการหูอื้อ ควรหยุดยา",
+    "ห้ามรับประทานยาเกินขนาดเพื่อหวังผลที่เร็วขึ้น",
+    "ควรระมัดระวังการใช้ยาในผู้ที่เป็นโรคเกาต์",
+    "ห้ามใช้ร่วมกับยาแก้แพ้บางชนิด",
+    "หากใช้ยาแล้วมีอาการตาพร่ามัว ควรหยุดยา"
 ]
 
 indications = [
@@ -151,7 +221,7 @@ def format_thai_date(date):
 
 
 records = []
-for _ in range(100): 
+for _ in range(50): 
     patient_name = fake.name()
     patient_id = fake.random_int(min=1000000000000, max=9999999999999)
     patient_birthdate = fake.date_of_birth(minimum_age=18, maximum_age=90)
@@ -159,23 +229,23 @@ for _ in range(100):
     mfg_date = fake.date_between(start_date="-1y", end_date="today")
     exp_date = fake.date_between(start_date="+1y", end_date="+3y")
     record = {
-        "patient_name": patient_name,
-        "patient_id": patient_id,
-        "patient_birthdate": thai_birthdate, 
-        "drug_name": random.choice(drugs)["name"],
-        "dosage": random.choice(drugs)["dosage"],
-        "form": random.choice(drugs)["form"], 
-        "drug_reg_no": random.choice(drugs)["reg_no"],
-        "mfg_date": mfg_date,
-        "exp_date": exp_date,
-        "warnings": random.choice(warnings),
-        "indications": random.choice(indications),
-        "usage_instructions": random.choice(usage_instructions)
+        "PATIENT_NAME": patient_name,
+        "PATIENT_ID": patient_id,
+        "PATIENT_BIRTHDATE": thai_birthdate, 
+        "DRUG_NAME": random.choice(drugs)["name"],
+        "DOSAGE": random.choice(drugs)["dosage"],
+        "FORM": random.choice(drugs)["form"], 
+        "DRUG_REG_NO": random.choice(drugs)["reg_no"],
+        "MFG_DATE": mfg_date,
+        "EXP_DATE": exp_date,
+        "WARNINGS": random.choice(warnings),
+        "INDICATIONS": random.choice(indications),
+        "USAGE_INSTRUCTIONS": random.choice(usage_instructions)
     }
     records.append(record)
 
 
 df = pd.DataFrame(records)
-df.to_csv("drug_labels.csv", index=False, encoding="utf-8-sig")
+df.to_csv("lastest.csv", index=False, encoding="utf-8-sig")
 
-print("finish work : drug_labels.csv")
+print("finish work : lastest.csv")
