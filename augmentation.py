@@ -32,8 +32,8 @@ def augment_gently_and_save(img_path, output_dir):
     final.save(save_path)
     print(f"✅ Saved: {save_path}")
 
-folder = ['ChakraPetch', 'Kanit', 'Krub', 'Sarabun', 'Prompt']
-type = ['bold', 'italic', 'regular']
+folder = ['Krub', 'ChakraPetch', 'Kanit',  'Sarabun', 'Prompt']
+type = ['regular', 'bold', 'italic']
 
 for i in folder:
     for j in type:
