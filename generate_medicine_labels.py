@@ -20,7 +20,9 @@ def init_draw(fonts):
 
 def save_image(font, img, filename):
     type = filename.split("_")[1]
-    save_path = os.path.join(f'picture/{font}/{type}', f"{filename}.png")
+    save_dir = os.path.join(f'picture/{font}/{type}')
+    os.makedirs(save_dir, exist_ok=True)
+    save_path = os.path.join(save_dir, f"{filename}.png")
     img.save(save_path)
 
 def make_medicine_label(fonts, filename):
